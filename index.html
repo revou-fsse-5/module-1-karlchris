@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puri Home Booking</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body style="background-color:rgb(190, 240, 246);" >
     <header>
-        <h1>Puri Home Booking</h1>
+        <h1 style="font-size:50px;text-align:center;font-family:Courier New;">Puri Home Website</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="bookings.html">Bookings</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#book-your-stay">Bookings</a></li>
+                <li><a href="index.html#contact-us">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Welcome to Puri Home</h2>
-        <img src="https://cdn.tatlerasia.com/tatlerasia/i/2022/12/14131745-01-house-at-surabaya-melanie-tanusetiawan-studio-melt-002_cover_1231x743.jpg" alt="W3Schools.com" width="auto" height="auto">
+        <h2 style="font-size:30px;">Welcome to Puri Home</h2>
+        <img src="https://cdn.tatlerasia.com/tatlerasia/i/2022/12/14131745-01-house-at-surabaya-melanie-tanusetiawan-studio-melt-002_cover_1231x743.jpg" alt="Home at Surabaya" width="auto" height="auto">
         <p>Find and book the best accommodations with us!</p>
 
-        <h2>Book Your Stay</h2>
+        <h2 style="font-size:30px;" id="book-your-stay">Book Your Stay</h2>
         <form action="#" method="post">
             <label for="checkin">Check-in Date:</label>
             <input type="date" id="checkin" name="checkin"><br><br>
@@ -41,7 +42,9 @@
             <input type="submit" value="Search">
         </form>
 
-        <h2>Contact Us</h2>
+        <br><br><hr>
+
+        <h2 style="font-size:20px;" id="contact-us">Contact Us</h2>
         <form action="#" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br>
