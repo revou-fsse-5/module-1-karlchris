@@ -39,3 +39,20 @@
 <a href="https://www.terraform.io/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="terraform" width="40" height="40"/></a>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=karlchris&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
+## Puri Home Website
+
+You can book your stay here, by:
+
+- choosing check-in date
+- choosing check-out date
+- inputting number of guests: Adults and Kids
+- then, you can check for the availability
+- Or, you can also contact us, drop us informations of your name, phone number, email and message. We will contact you soon.
+
+### Technical spec
+
+- This site has **basic page structure and semantics**, such as **headings**.
+- this site has **relevant contents** about booking.
+- this site has the **form** for **input text** and **radio button**.
+- included the **README** file.
