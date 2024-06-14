@@ -36,9 +36,13 @@
 
             <label for="guests">Number of Guests</label><br>
             <label for="adults">Adults:</label> 
-              <t><input type="number" id="adults" name="adults" min="1" max="6"><br>
+            <input type="number" id="adults" name="adults" min="1" max="6" placeholder="Number of Adults, min 1, max 6"><br>
             <label for="kids">Kids:</label>
-              <input type="number" id="kids" name="kids" min="0" max="6"><br>
+            <input type="number" id="kids" name="kids" min="0" max="6" placeholder="Number of Kids, min 0, max 6"><br>
+            
+            <p>Please select your bed type:</p>
+            <input type="radio" id="single" name="bed-type" value="single"><label for="single">Single King Bed</label>
+            <input type="radio" id="double" name="bed-type" value="double"><label for="double">Double Twin Bed</label><br>
 
             <button type="submit">Check Availability</button>
         </form>
