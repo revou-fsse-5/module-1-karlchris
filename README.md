@@ -55,4 +55,20 @@ You can book your stay here, by:
 - This site has **basic page structure and semantics**, such as **headings**.
 - this site has **relevant contents** about booking.
 - this site has the **form** for **input text** and **select from dropdown**.
+
+```html
+<label for="room-type">* Please select your room type:</label><br>
+    <select name="room-type" id="room-type">
+        <option value="Studio">Studio</option>
+        <option value="Single Room">Single Room</option>
+        <option value="Twin Room">Twin Room</option>
+        <option value="Double Room">Double Room</option>
+        <option value="Suite">Suite</option>
+    </select>
+```
+
 - included the **README** file.
+
+## Deployment
+
+[https://github.com/revou-fsse-5/module-1-karlchris/deployments](https://github.com/revou-fsse-5/module-1-karlchris/deployments)
