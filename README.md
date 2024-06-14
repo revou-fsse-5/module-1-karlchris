@@ -54,5 +54,5 @@ You can book your stay here, by:
 
 - This site has **basic page structure and semantics**, such as **headings**.
 - this site has **relevant contents** about booking.
-- this site has the **form** for **input text** and **radio button**.
+- this site has the **form** for **input text** and **select from dropdown**.
 - included the **README** file.
