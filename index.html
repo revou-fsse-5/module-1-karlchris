@@ -15,6 +15,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#book-your-stay">Bookings</a></li>
+                <li><a href="index.html#about-us">About</a></li>
                 <li><a href="index.html#contact-us">Contact</a></li>
             </ul>
         </nav>
@@ -25,42 +26,53 @@
         <img src="https://cdn.tatlerasia.com/tatlerasia/i/2022/12/14131745-01-house-at-surabaya-melanie-tanusetiawan-studio-melt-002_cover_1231x743.jpg" alt="Home at Surabaya" width="auto" height="auto">
         <p>Find and book the best accommodations with us!</p>
 
-        <h2 style="font-size:30px;" id="book-your-stay">Book Your Stay</h2>
+        <h3 style="font-size:20px;" id="book-your-stay">Book Your Stay</h3>
         <form action="#" method="post">
             <label for="checkin">Check-in Date:</label>
-            <input type="date" id="checkin" name="checkin"><br><br>
+            <input type="date" id="checkin" name="checkin"><br>
 
             <label for="checkout">Check-out Date:</label>
-            <input type="date" id="checkout" name="checkout"><br><br>
+            <input type="date" id="checkout" name="checkout"><br>
 
-            <label for="guests">Number of Guests</label><br><br>
+            <label for="guests">Number of Guests</label><br>
             <label for="adults">Adults:</label> 
-              <t><input type="number" id="adults" name="adults" min="1" max="6"><br><br>
+              <t><input type="number" id="adults" name="adults" min="1" max="6"><br>
             <label for="kids">Kids:</label>
-              <input type="number" id="kids" name="kids" min="0" max="6"><br><br>
+              <input type="number" id="kids" name="kids" min="0" max="6"><br>
 
-            <input type="submit" value="Search">
+            <button type="submit">Search</button>
         </form>
 
         <br><br><hr>
 
-        <h2 style="font-size:20px;" id="contact-us">Contact Us</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
+        <h3 style="font-size:20px;" id="about-us">About Us</h3>
+        <p>At Puri Home, we will serve and deliver the finest quality of living, bring the accomodations to the next level of experience</p>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
+        <section class="py-12 md:py-24 lg:py-32">
+            <div class="container px-4 md:px-6">
+                <h3 style="font-size:20px;" id="contact-us">Contact Us</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name"><br>
+                    
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="Your Phone Number"><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email"><br>
 
-            <input type="submit" value="Send Message">
-        </form>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Your Message"></textarea><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-        <p>&copy; 2024 Puri Home</p>
+    <footer class="h-16 flex items-center justify-center border-t">
+        <p class="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 Puri Home</p>
     </footer>
 </body>
 </html>
