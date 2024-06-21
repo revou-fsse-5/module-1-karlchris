@@ -68,6 +68,11 @@ You can book your stay here, by:
 ```
 
 - included the **README** file.
+- it has the correct semantics for each elements.
+- There's responsive design container with the image, so it can resize based on the screen size.
+- centering the image container with flex
+- I added sticky Nav header
+- Pages: https://revou-fsse-5.github.io/module-1-karlchris/
 
 ## Deployment
 
